@@ -1,0 +1,23 @@
+{
+  "name": "fargate-chron",
+  "version": "1.0.0",
+  "description": "A sample task for fargate-chron-server",
+  "main": "cron.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "{git url}"
+  },
+  "keywords": [
+    "systaskworker"
+  ],
+  "author": "Me",
+  "license": "ISC",
+  "dependencies": {
+    "redis-fast-driver": "2.1.5",
+    "mongodb": "^3.0.0",
+    "require-dir": "1.2.0"
+   }
+}
